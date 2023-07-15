@@ -1,34 +1,36 @@
-body{
-    font-family: "Roboto" sans-serif;
-    color: var(--navyblue, #2E2F42);
+:root{
+    --brand-color: #434455
 }
-.web{
-color: var(--iris, #4D5AE5);
-font-family: Raleway;
-font-size: 18px;
-font-weight: 800;
-line-height: 21px;
-letter-spacing: 0.54px;
-text-transform: uppercase
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--brand-color);
+    background-color: var(--white, #FFFFFF)
 }
 .logo{
-color: var(--navyblue, #2E2F42);
-font-family: Raleway;
+color: var(--navyblue, #4d5ae5);
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 text-decoration: none;
 }
+.span{
+    color: #2e2f42;
+}
+.list{
+    list-style: none
+}
 .link{
-color: var(--navyblue, #2E2F42);
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.32px;
 text-decoration: none;
+}
+.pages{
+    color: var(--navyblue, #2E2F42);
+    font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing:  0.02em;
 }
 .link:hover{
 color: var(--ocean, #404BBF);
@@ -72,16 +74,12 @@ background: var(--navyblue, #2E2F42);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
-    border-radius: 4px;
 background: var(--iris, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 align: center;
 cursor: pointer;
 }
 .button-order:hover{
-    border-radius: 4px;
 background: var(--ocean, #404BBF);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .value{
     color: var(--navyblue, #2E2F42);
@@ -126,7 +124,6 @@ letter-spacing: 0.32px;
 .button-all{
     color: var(--iris, #4D5AE5);
     background-color: var(--cloud, #F4F4FD);
-    border-radius: 4px;
     border: 1px solid var(--cornflower);
     text-align: center;
     font-family: Roboto;
@@ -139,14 +136,11 @@ cursor: pointer;
 }
 .button-all:hover{
 color: var(--white, #FFF);
-border-radius: 4px;
 background: var(--ocean, #404BBF);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .button-website{
 color: var(--iris, #4D5AE5);
 background-color: var(--cloud, #F4F4FD);
-border-radius: 4px;
 border: 1px solid var(--cornflower);
 text-align: center;
 font-family: Roboto;
@@ -159,14 +153,11 @@ cursor: pointer;
 }
 .button-website:hover{
     color: var(--white, #FFF);
-    border-radius: 4px;
     background: var(--ocean, #404BBF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .button-app{
 color: var(--iris, #4D5AE5);
 background-color: var(--cloud, #F4F4FD);
-border-radius: 4px;
 border: 1px solid var(--cornflower);
 text-align: center;
 font-family: Roboto;
@@ -179,14 +170,11 @@ cursor: pointer;
 }
 .button-app:hover{
     color: var(--white, #FFF);
-    border-radius: 4px;
     background: var(--ocean, #404BBF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .button-designe{
 color: var(--iris, #4D5AE5);
 background-color: var(--cloud, #F4F4FD);
-border-radius: 4px;
 border: 1px solid var(--cornflower);
 text-align: center;
 font-family: Roboto;
@@ -199,14 +187,11 @@ cursor: pointer;
 }
 .button-designe:hover{
     color: var(--white, #FFF);
-    border-radius: 4px;
     background: var(--ocean, #404BBF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .button-marketing{
 color: var(--iris, #4D5AE5);
 background-color: var(--cloud, #F4F4FD);
-border-radius: 4px;
 border: 1px solid var(--cornflower);
 text-align: center;
 font-family: Roboto;
@@ -219,9 +204,7 @@ cursor: pointer;
 }
 .button-marketing:hover{
     color: var(--white, #FFF);
-    border-radius: 4px;
-    background: var(--ocean, #404BBF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);    
+    background: var(--ocean, #404BBF);   
 }
 .h3{
 color: var(--navyblue, #2E2F42);
@@ -249,8 +232,6 @@ letter-spacing: 0.32px;
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    width: 71px;
-    height: 21px;
     text-decoration: none;
 }
 .footer-web{
@@ -261,8 +242,6 @@ font-weight: 800;
 line-height: 21px;
 letter-spacing: 0.54px;
 text-transform: uppercase;
-width: 44px;
-height: 21px;
 }
 .footer-text{
 color: var(--cloud, #F4F4FD);
